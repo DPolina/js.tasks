@@ -33,7 +33,7 @@ function findNumber(arr, num) {
       return `arr[${idx}] = ${arr[idx]} is not a number.`;
     }
   }
-  // [1,3,5,6,8,10,23,25,50], длина 9, и ищем число 0
+
   let startPos = 0;
   let endPos = arr.length - 1;
   do {
