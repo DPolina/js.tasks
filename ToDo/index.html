@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet">
+  <title>ToDo</title>
+</head>
+<body>
+  <div class="app-container">
+    <div class="app-title">
+      <h1>Enter a task name:</h1>
+    </div>
+    <div class="new-task">
+      <div class="add">
+        <input type="text" id="input-new-task">
+        <button id="btn-add">+</button>
+      </div>
+    </div>
+    <div class="tasks-block">
+      <div class="block-title">
+        <h2>Tasks to do:</h2>
+      </div>
+      <div class="tasks-list upcoming" id="list-tasks-upcoming">
+        <div class="task-item" id="task-item-block">
+          <!--Checkbox, name, delete-->
+        </div>
+      </div>
+    </div>
+    <div class="tasks-block">
+      <div class="block-title">
+        <h2>Completed tasks:</h2>
+      </div>
+      <div class="tasks-list completed" id="list-tasks-completed">
+        <div class="task-item">
+          <!--Checkbox, name, delete-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./todo.js"></script>
+</body>
+</html>
